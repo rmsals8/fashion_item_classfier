@@ -1,15 +1,10 @@
 
-pip install streamlit --quiet
-pip install pyngrok --quiet
-ngrok update
-npm install -g localtunnel
-pip install streamlit --upgrade
+
 
 import streamlit as st
 import matplotlib.pyplot as plt
 from PIL import Image
 from model import predict
-from pyngrok import ngrok
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
